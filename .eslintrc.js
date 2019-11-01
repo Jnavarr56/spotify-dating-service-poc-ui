@@ -1,6 +1,11 @@
 module.exports = {
 	parser: 'babel-eslint',
-	extends: ['eslint:recommended', 'plugin:react/recommended'],
+	extends: [
+		'eslint:recommended',
+		'plugin:react/recommended',
+		'prettier',
+		'prettier/react'
+	],
 	plugins: ['react', 'react-hooks', 'json'],
 	parserOptions: {
 		ecmaVersion: 2018,
